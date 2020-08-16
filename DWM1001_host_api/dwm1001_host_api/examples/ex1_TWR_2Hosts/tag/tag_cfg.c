@@ -34,7 +34,7 @@ int main(void)
    HAL_Print("dwm_cfg_tag_set(&cfg_tag): dev%d.\n", HAL_DevNum());
    dwm_cfg_tag_set(&cfg_tag);
 
-   HAL_Print("Wait 2s for node to reset.\n");
+   HAL_Print("Wait 1s for node to reset.\n");
    HAL_Delay(2000);
    dwm_cfg_get(&cfg_node);
 
