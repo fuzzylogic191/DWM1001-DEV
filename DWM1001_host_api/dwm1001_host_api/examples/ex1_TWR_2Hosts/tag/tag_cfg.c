@@ -21,7 +21,6 @@ int main(void)
    dwm_cfg_t cfg_node;
 
    HAL_Print("dwm_init(): dev%d\n", HAL_DevNum());
-   AL_Print("dwm_init(): dev%d\n", HAL_DevNum());
    dwm_init();
 
    HAL_Print("Setting to tag: dev%d.\n", HAL_DevNum());
